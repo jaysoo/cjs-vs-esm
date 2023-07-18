@@ -1,0 +1,10 @@
+{
+  "name": "ts-node-nodenext-mts-example",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "ts-node-esm -P tsconfig.json test.mts"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@acme/cjs-dual-exports",
+  "version": "1.0.0",
+  "main": "index.cjs.js",
+  "exports": {
+    ".": {
+      "module": "./index.esm.mjs",
+      "import": "./index.cjs.mjs",
+      "default": "./index.cjs.js"
+    },
+    "./package.json": "./package.json"
+  }
+}

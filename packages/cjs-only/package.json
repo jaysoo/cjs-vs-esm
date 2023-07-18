@@ -1,0 +1,12 @@
+{
+  "name": "@acme/cjs-only",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "exports": {
+    ".": {
+      "default": "./index.js"
+    },
+    "./package.json": "./package.json"
+  }
+}
