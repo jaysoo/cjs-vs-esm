@@ -6,7 +6,7 @@
     ".": {
       "module": "./index.esm.mjs",
       "import": "./index.cjs.mjs",
-      "default": "./index.cjs.js"
+      "default": "./index.cjs.cjs"
     },
     "./package.json": "./package.json"
   }
